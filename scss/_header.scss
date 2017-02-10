@@ -1,0 +1,31 @@
+header
+{
+	background-color: $blue;
+	color: $white;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-bottom: 2em;
+	height: 6em;
+
+}
+
+.header-logo
+{
+ height: auto;
+ width: auto;
+}
+
+.site-title
+{
+	font-size: 1.25em;
+	font-weight: bold;
+	font-variant: small-caps;
+	display: block;
+	padding-top: .75em;
+}
+.site-sub-title
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+}

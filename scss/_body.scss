@@ -1,0 +1,58 @@
+.home-link
+{
+	color: $aqua;
+	text-decoration: none;
+}
+
+.home-link
+{
+	color: $white;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4
+{
+	color: $black;
+}
+
+h1
+{
+	font-weight: 900;
+}
+
+h3
+{
+	font-size: 2em;
+	line-height: 0;
+	margin-top: .65em;
+}
+
+a
+{
+	font-size: 1.25em;
+	text-decoration: none;
+	color: $aqua;
+
+	&:hover
+	{
+		color: $aqua - 25;
+	}
+}
+
+.tableOfContents
+{
+	padding: 0;
+	list-style-type: none;
+}
+
+.slideDetails
+{
+	padding: 0;
+	margin-bottom: 3em;
+
+	li
+	{
+		margin-bottom: .5em;
+		font-size: 1.25em;
+	}
+}
