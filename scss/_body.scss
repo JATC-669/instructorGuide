@@ -13,23 +13,35 @@
 h1, h2, h3, h4
 {
 	color: $black;
+	margin: 0;
+	padding: 0;
 }
 
 h1
 {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: .75em;
+}
+
+h2
+{
 	font-weight: 900;
+	font-size: 1.5em;
+	margin-bottom: .75em;
+	color: $aqua;
 }
 
 h3
 {
-	font-size: 2em;
+	font-size: 1.25em;
 	line-height: 0;
-	margin-top: .65em;
+	margin-top: 1.75em;
+	color: $blue;
 }
 
 a
 {
-	font-size: 1.25em;
 	text-decoration: none;
 	color: $aqua;
 
@@ -39,20 +51,25 @@ a
 	}
 }
 
-.tableOfContents
+.icon-reference
 {
-	padding: 0;
-	list-style-type: none;
+	margin-bottom: 1em;
 }
 
-.slideDetails
+li
 {
 	padding: 0;
-	margin-bottom: 3em;
+	margin-bottom: .25em;
+}
 
-	li
-	{
-		margin-bottom: .5em;
-		font-size: 1.25em;
-	}
+.table-of-contents
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+.slide-details
+{
+
+	padding-left: 1em;
 }

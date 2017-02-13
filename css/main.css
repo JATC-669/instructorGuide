@@ -152,133 +152,136 @@ img {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+  /* Add a side padding on larger screens */
+  padding-left: 0%;
+  padding-right: 0%;
   /* Screen Widths Over 992px; */
-  /* line 70, ../scss/_grid.scss */
+  /* line 74, ../scss/_grid.scss */
   .col-1-sm {
     width: 8.3334%;
   }
 
-  /* line 71, ../scss/_grid.scss */
+  /* line 75, ../scss/_grid.scss */
   .col-2-sm {
     width: 16.6668%;
   }
 
-  /* line 72, ../scss/_grid.scss */
+  /* line 76, ../scss/_grid.scss */
   .col-3-sm {
     width: 25.0002%;
   }
 
-  /* line 73, ../scss/_grid.scss */
+  /* line 77, ../scss/_grid.scss */
   .col-4-sm {
     width: 33.3336%;
   }
 
-  /* line 74, ../scss/_grid.scss */
+  /* line 78, ../scss/_grid.scss */
   .col-5-sm {
     width: 41.667%;
   }
 
-  /* line 75, ../scss/_grid.scss */
+  /* line 79, ../scss/_grid.scss */
   .col-6-sm {
     width: 50.0004%;
   }
 
-  /* line 76, ../scss/_grid.scss */
+  /* line 80, ../scss/_grid.scss */
   .col-7-sm {
     width: 58.3338%;
   }
 
-  /* line 77, ../scss/_grid.scss */
+  /* line 81, ../scss/_grid.scss */
   .col-8-sm {
     width: 66.6672%;
   }
 
-  /* line 78, ../scss/_grid.scss */
+  /* line 82, ../scss/_grid.scss */
   .col-9-sm {
     width: 75.0006%;
   }
 
-  /* line 79, ../scss/_grid.scss */
+  /* line 83, ../scss/_grid.scss */
   .col-10-sm {
     width: 83.334%;
   }
 
-  /* line 80, ../scss/_grid.scss */
+  /* line 84, ../scss/_grid.scss */
   .col-11-sm {
     width: 91.6674%;
   }
 
-  /* line 81, ../scss/_grid.scss */
+  /* line 85, ../scss/_grid.scss */
   .col-12-sm {
     width: 100.0008%;
   }
 }
 /* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  /* line 88, ../scss/_grid.scss */
+@media only screen and (min-width: 1025px) {
+  /* line 92, ../scss/_grid.scss */
   .row {
     /* Add a side padding on larger screens */
-    padding-left: 12%;
-    padding-right: 12%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   /* Screen Widths Over 992px; */
-  /* line 95, ../scss/_grid.scss */
+  /* line 99, ../scss/_grid.scss */
   .col-1-md {
     width: 8.3334%;
   }
 
-  /* line 96, ../scss/_grid.scss */
+  /* line 100, ../scss/_grid.scss */
   .col-2-md {
     width: 16.6668%;
   }
 
-  /* line 97, ../scss/_grid.scss */
+  /* line 101, ../scss/_grid.scss */
   .col-3-md {
     width: 25.0002%;
   }
 
-  /* line 98, ../scss/_grid.scss */
+  /* line 102, ../scss/_grid.scss */
   .col-4-md {
     width: 33.3336%;
   }
 
-  /* line 99, ../scss/_grid.scss */
+  /* line 103, ../scss/_grid.scss */
   .col-5-md {
     width: 41.667%;
   }
 
-  /* line 100, ../scss/_grid.scss */
+  /* line 104, ../scss/_grid.scss */
   .col-6-md {
     width: 50.0004%;
   }
 
-  /* line 101, ../scss/_grid.scss */
+  /* line 105, ../scss/_grid.scss */
   .col-7-md {
     width: 58.3338%;
   }
 
-  /* line 102, ../scss/_grid.scss */
+  /* line 106, ../scss/_grid.scss */
   .col-8-md {
     width: 66.6672%;
   }
 
-  /* line 103, ../scss/_grid.scss */
+  /* line 107, ../scss/_grid.scss */
   .col-9-md {
     width: 75.0006%;
   }
 
-  /* line 104, ../scss/_grid.scss */
+  /* line 108, ../scss/_grid.scss */
   .col-10-md {
     width: 83.334%;
   }
 
-  /* line 105, ../scss/_grid.scss */
+  /* line 109, ../scss/_grid.scss */
   .col-11-md {
     width: 91.6674%;
   }
 
-  /* line 106, ../scss/_grid.scss */
+  /* line 110, ../scss/_grid.scss */
   .col-12-md {
     width: 100.0008%;
   }
@@ -286,62 +289,62 @@ img {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   /* Screen Widths Over 1200px; */
-  /* line 114, ../scss/_grid.scss */
+  /* line 118, ../scss/_grid.scss */
   .col-1-lg {
     width: 8.3334%;
   }
 
-  /* line 115, ../scss/_grid.scss */
+  /* line 119, ../scss/_grid.scss */
   .col-2-lg {
     width: 16.6668%;
   }
 
-  /* line 116, ../scss/_grid.scss */
+  /* line 120, ../scss/_grid.scss */
   .col-3-lg {
     width: 25.0002%;
   }
 
-  /* line 117, ../scss/_grid.scss */
+  /* line 121, ../scss/_grid.scss */
   .col-4-lg {
     width: 33.3336%;
   }
 
-  /* line 118, ../scss/_grid.scss */
+  /* line 122, ../scss/_grid.scss */
   .col-5-lg {
     width: 41.667%;
   }
 
-  /* line 119, ../scss/_grid.scss */
+  /* line 123, ../scss/_grid.scss */
   .col-6-lg {
     width: 50.0004%;
   }
 
-  /* line 120, ../scss/_grid.scss */
+  /* line 124, ../scss/_grid.scss */
   .col-7-lg {
     width: 58.3338%;
   }
 
-  /* line 121, ../scss/_grid.scss */
+  /* line 125, ../scss/_grid.scss */
   .col-8-lg {
     width: 66.6672%;
   }
 
-  /* line 122, ../scss/_grid.scss */
+  /* line 126, ../scss/_grid.scss */
   .col-9-lg {
     width: 75.0006%;
   }
 
-  /* line 123, ../scss/_grid.scss */
+  /* line 127, ../scss/_grid.scss */
   .col-10-lg {
     width: 83.334%;
   }
 
-  /* line 124, ../scss/_grid.scss */
+  /* line 128, ../scss/_grid.scss */
   .col-11-lg {
     width: 91.6674%;
   }
 
-  /* line 125, ../scss/_grid.scss */
+  /* line 129, ../scss/_grid.scss */
   .col-12-lg {
     width: 100.0008%;
   }
@@ -364,7 +367,7 @@ header {
 
 /* line 19, ../scss/_header.scss */
 .site-title {
-  font-size: 1.25em;
+  font-size: .75em;
   font-weight: bold;
   font-variant: small-caps;
   display: block;
@@ -373,11 +376,32 @@ header {
 
 /* line 27, ../scss/_header.scss */
 .site-sub-title {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
   display: block;
 }
 
+/* line 34, ../scss/_header.scss */
+.home-link {
+  font-size: .75em;
+}
+
+/* line 39, ../scss/_header.scss */
+.icon-reference {
+  margin-top: .80em;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 47, ../scss/_header.scss */
+  .site-title {
+    font-size: 1.25em;
+  }
+
+  /* line 51, ../scss/_header.scss */
+  .site-sub-title {
+    font-size: 1.5em;
+  }
+}
 /* line 2, ../scss/_body.scss */
 .home-link {
   color: #38bbaa;
@@ -393,44 +417,73 @@ header {
 /* line 14, ../scss/_body.scss */
 h1, h2, h3, h4 {
   color: #222222;
+  margin: 0;
+  padding: 0;
 }
 
-/* line 19, ../scss/_body.scss */
+/* line 21, ../scss/_body.scss */
 h1 {
-  font-weight: 900;
-}
-
-/* line 24, ../scss/_body.scss */
-h3 {
+  font-weight: bold;
   font-size: 2em;
-  line-height: 0;
-  margin-top: .65em;
+  margin-bottom: .75em;
 }
 
-/* line 31, ../scss/_body.scss */
-a {
+/* line 28, ../scss/_body.scss */
+h2 {
+  font-weight: 900;
+  font-size: 1.5em;
+  margin-bottom: .75em;
+  color: #38bbaa;
+}
+
+/* line 36, ../scss/_body.scss */
+h3 {
   font-size: 1.25em;
+  line-height: 0;
+  margin-top: 1.75em;
+  color: #264f9d;
+}
+
+/* line 44, ../scss/_body.scss */
+a {
   text-decoration: none;
   color: #38bbaa;
 }
-/* line 37, ../scss/_body.scss */
+/* line 49, ../scss/_body.scss */
 a:hover {
   color: #1fa291;
 }
 
-/* line 43, ../scss/_body.scss */
-.tableOfContents {
-  padding: 0;
-  list-style-type: none;
+/* line 55, ../scss/_body.scss */
+.icon-reference {
+  margin-bottom: 1em;
 }
 
-/* line 49, ../scss/_body.scss */
-.slideDetails {
+/* line 60, ../scss/_body.scss */
+li {
   padding: 0;
-  margin-bottom: 3em;
+  margin-bottom: .25em;
 }
-/* line 54, ../scss/_body.scss */
-.slideDetails li {
-  margin-bottom: .5em;
-  font-size: 1.25em;
+
+/* line 66, ../scss/_body.scss */
+.table-of-contents {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 72, ../scss/_body.scss */
+.slide-details {
+  padding-left: 1em;
+}
+
+/* line 2, ../scss/_buttons.scss */
+.button {
+  background: #eeeeee;
+  border: 3px solid #38bbaa;
+  display: block;
+  width: 100%;
+  font-size: 2em;
+  padding: .75em;
+  color: #38bbaa;
+  text-align: center;
 }

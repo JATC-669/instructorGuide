@@ -17,7 +17,7 @@ header
 
 .site-title
 {
-	font-size: 1.25em;
+	font-size: .75em;
 	font-weight: bold;
 	font-variant: small-caps;
 	display: block;
@@ -25,7 +25,32 @@ header
 }
 .site-sub-title
 {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 	display: block;
+}
+
+.home-link
+{
+	font-size: .75em;
+}
+
+.icon-reference
+{
+	margin-top: .80em;
+}
+
+
+@media only screen and (min-width : 768px) {
+
+.site-title
+{
+	font-size: 1.25em;
+}
+.site-sub-title
+{
+	font-size: 1.5em;
+
+}
+
 }

@@ -66,6 +66,10 @@ $baseColumnPadding: 12px;
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+	/* Add a side padding on larger screens */
+		padding-left: $baseRowPadding - $baseRowPadding;
+		padding-right: $baseRowPadding - $baseRowPadding;
+
 	/* Screen Widths Over 992px; */
 	.col-1-sm  { width: $baseColumnWidth * 1; }
 	.col-2-sm  { width: $baseColumnWidth * 2; }
@@ -82,13 +86,13 @@ $baseColumnPadding: 12px;
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 1025px) {
 
 	.row
 	{
 		/* Add a side padding on larger screens */
-		padding-left: $baseRowPadding;
-		padding-right: $baseRowPadding;
+		padding-left: $baseRowPadding - $baseRowPadding;
+		padding-right: $baseRowPadding - $baseRowPadding;
 	}
 
 	/* Screen Widths Over 992px; */
